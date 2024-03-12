@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.AddActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/cadastro_carro"
+        android:textSize="24sp"
+        android:padding="20dp"
+        android:textColor="@color/roxo"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/marca"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:hint="@string/modelo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etAno"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:hint="@string/ano"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etCor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:hint="@string/cor"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14dp"
+        android:hint="@string/placa"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNomeProprietario"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:hint="@string/nomeProp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etObs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/puple_border"
+        android:padding="16dp"
+        android:hint="@string/obs"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnCadastraCarro"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/roxo"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/CadastraCarro" />
+
+    <Button
+        android:id="@+id/btnCancela"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/roxo"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/cancelar" />
+
+</LinearLayout>

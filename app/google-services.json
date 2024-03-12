@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1072292320260",
+    "firebase_url": "https://carlista2p1-default-rtdb.firebaseio.com",
+    "project_id": "carlista2p1",
+    "storage_bucket": "carlista2p1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072292320260:android:c6b592850890a69ca8d151",
+        "android_client_info": {
+          "package_name": "com.marcos.project1andorid2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmt2wyF3HttOHsq_4hq3KUuPa8BtCIQFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

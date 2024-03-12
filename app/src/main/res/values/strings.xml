@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">project1andorid2</string>
+    <string name="name">Nome</string>
+    <string name="mail">Email</string>
+    <string name="password">Senha</string>
+    <string name="btnCadastro">Criar Conta</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="cor">Cor</string>
+    <string name="ano">0000</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="placa">P14C4</string>
+    <string name="nomeProp">Nome do Proprietario\n</string>
+    <string name="obs">Observações</string>
+    <string name="addcarro">addCarro</string>
+    <string name="tituloMain">Carros Cadastrados</string>
+    <string name="descMain">Segue a lista com os carros cadastrados no Sistema.</string>
+    <string name="desc2Main">Se seu carro não estiver na lista, pressione o botão "+" abaixo e cadastre.</string>
+    <string name="CadastraCarro">Cadastrar Carro</string>
+    <string name="cadastro_carro">Cadastrar Carro</string>
+    <string name="logintxt">Login</string>
+    <string name="criar_cadastro">Crie sua conta</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="titulo_edit">Editar Carro</string>
+    <string name="btn_edit_car">Salvar</string>
+</resources>
